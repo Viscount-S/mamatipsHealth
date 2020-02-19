@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 
 {% load static %}
-
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
   <title>MamaTips</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="Health tips">
-  <meta content="" name="maternal health">
+  <meta content="Maternal Health Tip in maternal Health" name="Health tips">
+  <meta content="maternal Health" name="maternal health">
 
   <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
-  <meta property="og:title" content="">
-  <meta property="og:image" content="">
-  <meta property="og:url" content="">
-  <meta property="og:site_name" content="">
-  <meta property="og:description" content="">
+  <meta property="og:title" content="Maternal Health Tip">
+  <meta property="og:image" content="Maternal Health Tip">
+  <meta property="og:url" content="Maternal Health Tip">
+  <meta property="og:site_name" content="Maternal Health Tip">
+  <meta property="og:description" content="Maternal Health Tip">
 
   <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
   <meta name="twitter:card" content="summary">
@@ -49,6 +48,29 @@
   <!--Your custom colour override - predefined colours are: colour-blue.css, colour-green.css, colour-lavander.css, orange is default-->
   <link href="#" id="colour-scheme" rel="stylesheet">
 
+  <!-- New Boot injection static css, js links-->
+
+  <!-- Favicons -->
+  <link href="{% static 'mamaTipsHome/injectionBootimgimg/favicon.png' %}" rel="icon">
+  <link href="{% static 'mamaTipsHome/injectionBootimg/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Bootstrap css -->
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+  <link href="{% static 'mamaTipsHome/injectionBootimg/lib/bootstrap/css/bootstrap.min.css'}" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="{% static 'mamaTipsHome/injectionBoot/lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
+  <link href="{% static 'mamaTipsHome/injectionBoot/lib/owlcarousel/assets/owl.theme.default.min.css' %}" rel="stylesheet">
+  <link href="{% static 'mamaTipsHome/injectionBoot/lib/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
+  <link href="{% static 'mamaTipsHome/injectionBoot/lib/animate/animate.min.css' %}" rel="stylesheet">
+  <link href="{% static 'mamaTipsHome/injectionBoot/lib/modal-video/css/modal-video.min.css' %}" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="{% static 'mamaTipsHome/injectionBoot/css/style.css' %}" rel="stylesheet">
+
   <!-- =======================================================
     Theme Name: Flexor
     Theme URL: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/
@@ -74,7 +96,6 @@
               <p>Flexor is a super flexible responsive theme with a modest design touch.</p>
               <a href="about.html" class="btn btn-more"><i class="fa fa-plus"></i> Learn more</a>
             </div>
-
             <div class="col-md-3">
               <!--@todo: replace with company contact details-->
               <h3>
@@ -127,7 +148,7 @@
               <!--navbar-branding/logo - hidden image tag & site name so things like Facebook to pick up, actual logo set via CSS for flexibility -->
               <a class="navbar-brand" href="index.html" title="Home">
                 <h1 class="hidden">
-                    <img src="{% static 'mamatipshome/img/logo.png' %}" alt="Flexor Logo">
+                    <img src="img/logo.png" alt="Flexor Logo">
                     Flexor
                   </h1>
               </a>
@@ -236,7 +257,7 @@
                   <a href="https://bootstrapmade.com" class="btn btn-more btn-lg i-right">Buy Now <i class="fa fa-plus"></i></a>
                 </div>
                 <div class="col-md-6 col-md-pull-6 hidden-xs">
-                  <img src="{% static 'mamatipshome/img/slides/slide1.png' %}" alt="Slide 1" class="center-block img-responsive">
+                  <img src="img/slides/slide1.png" alt="Slide 1" class="center-block img-responsive">
                 </div>
               </div>
             </div>
@@ -254,7 +275,7 @@
                   <a href="https://bootstrapmade.com" class="btn btn-more btn-lg"><i class="fa fa-plus"></i> Learn More</a>
                 </div>
                 <div class="col-md-6 hidden-xs">
-                  <img src="{% static 'mamatipshome/img/slides/slide2.png' %}" alt="Slide 2" class="center-block img-responsive">
+                  <img src="img/slides/slide2.png" alt="Slide 2" class="center-block img-responsive">
                 </div>
               </div>
             </div>
@@ -279,14 +300,14 @@
     <div class="showcase block block-border-bottom-grey">
       <div class="container">
         <h2 class="block-title">
-            {{ r }} {{ ty }}
+            Showcase
           </h2>
         <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a
           sit amet mauris.</p>
         <div class="item-carousel" data-toggle="owlcarousel" data-owlcarousel-settings='{"items":4, "pagination":false, "navigation":true, "itemsScaleUp":true}'>
           <div class="item">
             <a href="#" class="overlay-wrapper">
-                <img src="{% static 'mamatipshome/img/showcase/project1.png' %}" alt="Project 1 image" class="img-responsive underlay">
+                <img src="img/showcase/project1.png" alt="Project 1 image" class="img-responsive underlay">
                 <span class="overlay">
                   <span class="overlay-content"> <span class="h4">Project 1</span> </span>
                 </span>
@@ -300,7 +321,7 @@
           </div>
           <div class="item">
             <a href="#" class="overlay-wrapper">
-                <img src="{% static 'mamatipshome/img/showcase/project2.png' %}" alt="Project 2 image" class="img-responsive underlay">
+                <img src="img/showcase/project2.png" alt="Project 2 image" class="img-responsive underlay">
                 <span class="overlay">
                   <span class="overlay-content"> <span class="h4">Project 2</span> </span>
                 </span>
@@ -314,7 +335,7 @@
           </div>
           <div class="item">
             <a href="#" class="overlay-wrapper">
-                <img src="{% static 'mamatipshome/img/showcase/project3.png' %}" alt="Project 3 image" class="img-responsive underlay">
+                <img src="img/showcase/project3.png" alt="Project 3 image" class="img-responsive underlay">
                 <span class="overlay">
                   <span class="overlay-content"> <span class="h4">Project 3</span> </span>
                 </span>
@@ -328,7 +349,7 @@
           </div>
           <div class="item">
             <a href="#" class="overlay-wrapper">
-                <img src="{% static 'mamatipshome/img/showcase/project4.png' %}" alt="Project 4 image" class="img-responsive underlay">
+                <img src="img/showcase/project4.png" alt="Project 4 image" class="img-responsive underlay">
                 <span class="overlay">
                   <span class="overlay-content"> <span class="h4">Project 4</span> </span>
                 </span>
@@ -342,7 +363,7 @@
           </div>
           <div class="item">
             <a href="#" class="overlay-wrapper">
-                <img src="{% static 'mamatipshome/img/showcase/project5.png' %}" alt="Project 5 image" class="img-responsive underlay">
+                <img src="img/showcase/project5.png" alt="Project 5 image" class="img-responsive underlay">
                 <span class="overlay">
                   <span class="overlay-content"> <span class="h4">Project 5</span> </span>
                 </span>
@@ -356,7 +377,7 @@
           </div>
           <div class="item">
             <a href="#" class="overlay-wrapper">
-                <img src="{% static 'mamatipshome/img/showcase/project6.png' %}" alt="Project 6 image" class="img-responsive underlay">
+                <img src="img/showcase/project6.png" alt="Project 6 image" class="img-responsive underlay">
                 <span class="overlay">
                   <span class="overlay-content"> <span class="h4">Project 6</span> </span>
                 </span>
@@ -370,7 +391,7 @@
           </div>
           <div class="item">
             <a href="#" class="overlay-wrapper">
-                <img src="{% static 'mamatipshome/img/showcase/project7.png' %}" alt="Project 7 image" class="img-responsive underlay">
+                <img src="img/showcase/project7.png" alt="Project 7 image" class="img-responsive underlay">
                 <span class="overlay">
                   <span class="overlay-content"> <span class="h4">Project 7</span> </span>
                 </span>
@@ -384,7 +405,7 @@
           </div>
           <div class="item">
             <a href="#" class="overlay-wrapper">
-                <img src="{% static 'mamatipshome/img/showcase/project8.png' %}" alt="Project 8 image" class="img-responsive underlay">
+                <img src="img/showcase/project8.png" alt="Project 8 image" class="img-responsive underlay">
                 <span class="overlay">
                   <span class="overlay-content"> <span class="h4">Project 8</span> </span>
                 </span>
@@ -398,7 +419,7 @@
           </div>
           <div class="item">
             <a href="#" class="overlay-wrapper">
-                <img src="{% static 'mamatipshome/img/showcase/project9.png' %}" alt="Project 9 image" class="img-responsive underlay">
+                <img src="img/showcase/project9.png" alt="Project 9 image" class="img-responsive underlay">
                 <span class="overlay">
                   <span class="overlay-content"> <span class="h4">Project 9</span> </span>
                 </span>
@@ -412,7 +433,7 @@
           </div>
           <div class="item">
             <a href="#" class="overlay-wrapper">
-                <img src="{% static 'mamatipshome/img/showcase/project10.png' %}" alt="Project 10 image" class="img-responsive underlay">
+                <img src="img/showcase/project10.png" alt="Project 10 image" class="img-responsive underlay">
                 <span class="overlay">
                   <span class="overlay-content"> <span class="h4">Project 10</span> </span>
                 </span>
@@ -426,7 +447,7 @@
           </div>
           <div class="item">
             <a href="#" class="overlay-wrapper">
-                <img src="{% static 'mamatipshome/img/showcase/project11.png' %}" alt="Project 11 image" class="img-responsive underlay">
+                <img src="img/showcase/project11.png" alt="Project 11 image" class="img-responsive underlay">
                 <span class="overlay">
                   <span class="overlay-content"> <span class="h4">Project 11</span> </span>
                 </span>
@@ -440,7 +461,7 @@
           </div>
           <div class="item">
             <a href="#" class="overlay-wrapper">
-                <img src="{% static 'mamatipshome/img/showcase/project12.png' %}" alt="Project 12 image" class="img-responsive underlay">
+                <img src="img/showcase/project12.png" alt="Project 12 image" class="img-responsive underlay">
                 <span class="overlay">
                   <span class="overlay-content"> <span class="h4">Project 12</span> </span>
                 </span>
@@ -615,7 +636,7 @@ Usage: data-block-bg-img="IMAGE-URL" to apply a background image clearly via jQu
             </h3>
           <blockquote>
             <p>Our productivity &amp; sales are up! Customers are happy &amp; we couldn't be happier with this product!</p>
-            <img src="{% static 'mamatipshome/img/misc/charles-quote.png' %}" alt="Charles Spencer Chaplin">
+            <img src="img/misc/charles-quote.png" alt="Charles Spencer Chaplin">
             <small>
                 <strong>Charles Chaplin</strong>
                 <br>
@@ -687,32 +708,32 @@ Usage: data-block-bg-img="IMAGE-URL" to apply a background image clearly via jQu
             <!--Client logos should be within a 120px wide by 60px height image canvas-->
             <div class="col-xs-6 col-md-2">
               <a href="https://bootstrapmade.com" title="Client 1">
-                  <img src="{% static 'mamatipshome/img/clients/client1.png' %}" alt="Client 1 logo" class="img-responsive">
+                  <img src="img/clients/client1.png" alt="Client 1 logo" class="img-responsive">
                 </a>
             </div>
             <div class="col-xs-6 col-md-2">
               <a href="https://bootstrapmade.com" title="Client 2">
-                  <img src="{% static 'mamatipshome/img/clients/client2.png' %}" alt="Client 2 logo" class="img-responsive">
+                  <img src="img/clients/client2.png" alt="Client 2 logo" class="img-responsive">
                 </a>
             </div>
             <div class="col-xs-6 col-md-2">
               <a href="https://bootstrapmade.com" title="Client 3">
-                  <img src="{% static 'mamatipshome/img/clients/client3.png' %}" alt="Client 3 logo" class="img-responsive">
+                  <img src="img/clients/client3.png" alt="Client 3 logo" class="img-responsive">
                 </a>
             </div>
             <div class="col-xs-6 col-md-2">
               <a href="https://bootstrapmade.com" title="Client 4">
-                  <img src="{% static 'mamatipshome/img/clients/client4.png' %}" alt="Client 4 logo" class="img-responsive">
+                  <img src="img/clients/client4.png" alt="Client 4 logo" class="img-responsive">
                 </a>
             </div>
             <div class="col-xs-6 col-md-2">
               <a href="https://bootstrapmade.com" title="Client 5">
-                  <img src="{% static 'mamatipshome/img/clients/client5.png' %}" alt="Client 5 logo" class="img-responsive">
+                  <img src="img/clients/client5.png" alt="Client 5 logo" class="img-responsive">
                 </a>
             </div>
             <div class="col-xs-6 col-md-2">
               <a href="https://bootstrapmade.com" title="Client 6">
-                  <img src="{% static 'mamatipshome/img/clients/client6.png' %}" alt="Client 6 logo" class="img-responsive">
+                  <img src="img/clients/client6.png" alt="Client 6 logo" class="img-responsive">
                 </a>
             </div>
           </div>
@@ -722,7 +743,7 @@ Usage: data-block-bg-img="IMAGE-URL" to apply a background image clearly via jQu
   </div>
 
   <!-- ======== @Region: #footer ======== -->
-  <footer id="footer" class="block block-bg-grey-dark" data-block-bg-img="{% static 'mamatipshome/img/bg_footer-map.png' %}" data-stellar-background-ratio="0.4">
+  <footer id="footer" class="block block-bg-grey-dark" data-block-bg-img="img/bg_footer-map.png" data-stellar-background-ratio="0.4">
     <div class="container">
 
       <div class="row" id="contact">
@@ -831,6 +852,23 @@ Usage: data-block-bg-img="IMAGE-URL" to apply a background image clearly via jQu
   <!--Contactform script -->
   <script src="{% static 'mamatipshome/contactform/contactform.js' %}"></script>
 
+<!-- Javascript libraries for the new injection-->
+
+<!-- JavaScript Libraries -->
+  <script src="{% static 'mamaTipsHome/injectionBoot/lib/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'mamaTipsHome/injectionBoot/lib/jquery/jquery-migrate.min.js' %}"></script>
+  <script src="{% static 'mamaTipsHome/injectionBoot/lib/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'mamaTipsHome/injectionBoot/lib/superfish/hoverIntent.js' %}"></script>
+  <script src="{% static 'mamaTipsHome/injectionBoot/lib/superfish/superfish.min.js' %}"></script>
+  <script src="{% static 'mamaTipsHome/injectionBoot/lib/easing/easing.min.js' %}"></script>
+  <script src="{% static 'mamaTipsHome/injectionBoot/lib/modal-video/js/modal-video.js' %}"></script>
+  <script src="{% static 'mamaTipsHome/injectionBoot/lib/owlcarousel/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'mamaTipsHome/injectionBoot/lib/wow/wow.min.js' %}"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="{% static 'mamaTipsHome/injectionBoot/contactform/contactform.js' %}"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="{% static 'mamaTipsHome/injectionBoot/js/main.js' %}"></script>
 </body>
 
 </html>
