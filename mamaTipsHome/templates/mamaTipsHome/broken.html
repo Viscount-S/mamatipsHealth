@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+
 {% load static %}
 
-
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <title>MamaTips</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="Maternal Health Tip in maternal Health" name="Health tips">
-  <meta content="maternal Health" name="maternal health">
+  <meta content="" name="Health tips">
+  <meta content="" name="maternal health">
 
   <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
-  <meta property="og:title" content="Maternal Health Tip">
-  <meta property="og:image" content="Maternal Health Tip">
-  <meta property="og:url" content="Maternal Health Tip">
-  <meta property="og:site_name" content="Maternal Health Tip">
-  <meta property="og:description" content="Maternal Health Tip">
+  <meta property="og:title" content="">
+  <meta property="og:image" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="">
 
   <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
   <meta name="twitter:card" content="summary">
@@ -47,30 +47,9 @@
   <link href="{% static 'mamatipshome/css/style.css' %}" rel="stylesheet">
 
   <!--Your custom colour override - predefined colours are: colour-blue.css, colour-green.css, colour-lavander.css, orange is default-->
-  <link href="#" id="colour-scheme" rel="stylesheet">
 
-  <!-- New Boot injection static css, js links-->
 
-  <!-- Favicons -->
-  <link href="{% static 'mamaTipsHome/injectionBoot/favicon.png' %}" rel="icon">
-  <link href="{% static 'mamaTipsHome/injectionBoot/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
-
-  <!-- Bootstrap css -->
-  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
-  <link href="{% static 'mamaTipsHome/injectionBoot/lib/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
-  <link href="{% static 'mamaTipsHome/injectionBoot/lib/owlcarousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
-  <link href="{% static 'mamaTipsHome/injectionBoot/lib/owlcarousel/assets/owl.theme.default.min.css' %}" rel="stylesheet">
-  <link href="{% static 'mamaTipsHome/injectionBoot/lib/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet">
-  <link href="{% static 'mamaTipsHome/injectionBoot/lib/animate/animate.min.css' %}" rel="stylesheet">
-  <link href="{% static 'mamaTipsHome/injectionBoot/lib/modal-video/css/modal-video.min.css' %}" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="{% static 'mamaTipsHome/injectionBoot/css/style.css' %}" rel="stylesheet">
 
   <!-- =======================================================
     Theme Name: Flexor
@@ -173,6 +152,8 @@
         </div>
       </div>
     </div>
+
+      <!-- section below the first upper nav layer -->
     <div class="hero" id="highlighted">
       <div class="inner">
         <!--Slideshow-->
@@ -224,7 +205,7 @@
       </div>
     </div>
   </div>
-
+<!--- Entire Menu Navbar -->
   <div class="container">
         <div class="navbar navbar-default">
           <!--mobile collapse menu button-->
@@ -292,33 +273,11 @@
       </div>
 
   <!-- ======== @Region: #content ======== -->
-  <div class="container" id="content"></div>
+  <div id="content">
+    <!-- Mission Statement -->
+      <!-- new boot injection -->
 
-    <!-- reject start
-
-     Mission Statement
-    <div class="mission text-center block block-pd-sm block-bg-noise">
-      <div class="container" id="motivation">
-        <h2>
-          <p>Motivation</p>
-          <p class="showcase block block-border-bottom-grey">
-          The average Kenyan woman gives birth 4 times, and with such statistics, each pregnancy and delivery puts her,
-          as well as their baby, in potential danger of infection, disability, or in the worst case, death. There is therefore
-          an urgent need to educate women on pregnancy and to spur them to take a more active role in safeguarding their health
-          and that of their unborn baby.e a full digital agency based in London. We are experienced professionals in building websites,
-          applications, mobile solutions.</p>
-            <a href="about.html" class="btn btn-more"><i class="fa fa-plus"></i>My Thoughts</a>
-          </h2>
-      </div>
-    </div>
- reject end -->
-    <!-- copy start -->
-
-
-  <!--==========================
-    About Us Section
-  ============================-->
-  <section id="about-us" class="about-us padd-section wow fadeInUp">
+      <section id="about-us" class="about-us padd-section wow fadeInUp">
     <div class="container">
       <div class="row justify-content-center">
 
@@ -352,23 +311,12 @@
       </div>
     </div>
   </section>
-    <div class="showcase block block-border-bottom-grey" id="motivation">
+      <!-- new boot injection -->
+
+    <!--Showcase-->
+    <div class="showcase block block-border-bottom-grey">
       <div class="container">
-        <h2 class="" align="center"> Motivation
-          </h2>
-        <div class="container">
 
-
-      <p align="center">The average Kenyan woman gives birth 4 times, and with such statistics, each pregnancy and delivery puts her,
-          as well as their baby, in potential danger of infection, disability, or in the worst case, death. There is therefore
-          an urgent need to educate women on pregnancy and to spur them to take a more active role in safeguarding their health
-          and that of their unborn baby.e a full digital agency based in London. We are experienced professionals in building websites,
-          applications, mobile solutions.</p>
-</div>
-        <br>
-        <hr>
-        <br>
-        <div class="container">
 
         <div class="item-carousel" data-toggle="owlcarousel" data-owlcarousel-settings='{"items":4, "pagination":false, "navigation":true, "itemsScaleUp":true}'>
           <div class="item">
@@ -401,15 +349,14 @@
                   Upon birth, mothers continue to get information on how to take care of their babies in their infancy up to 3 years of age.
                 </p>
               <!--
-              <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
-              -->
-
+              <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a> -->
             </div>
           </div>
           <div class="item">
             <a href="#" class="overlay-wrapper">
-                <img src="{% static 'mamatipshome/img/showcase/project3.png' %}" alt="Project 3 image" class="img-responsive underlay">
+                <img width="100%" height="100%" src="{% static 'mamatipshome/img/showcase/project3.png' %}" alt="Project 3 image" class="img-responsive underlay">
                 <span class="overlay">
+                  <span class="overlay">
                   <span class="overlay-content"> <span class="h4">COMMUNITY HEALTH VOLUNTEERS</span> </span>
                 </span>
               </a>
@@ -421,12 +368,13 @@
               <!--
               <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
               -->
-
             </div>
           </div>
 
-          <!--
-          <div class="item">
+
+            <!--
+
+            <div class="item">
             <a href="#" class="overlay-wrapper">
                 <img src="{% static 'mamatipshome/img/showcase/project4.png' %}" alt="Project 4 image" class="img-responsive underlay">
                 <span class="overlay">
@@ -551,16 +499,12 @@
                 </h4>
               <a href="#" class="btn btn-more"><i class="fa fa-plus"></i>Read more</a>
             </div>
+          </div>
 
             -->
-          </div>
         </div>
       </div>
-    <!-- Services -->
-    <!-- copy end -->
-    <!--Showcase-->
-      <div class="showcase block block-border-bottom-grey" id="concept"></div>
-
+    </div>
 
       <div class="container">
         <h2 class="" align="center"> Concept & Approach
@@ -574,7 +518,7 @@
           government-owned health facilities.
 In addition, the mothers will have the option of choosing someone they trust, such as their spouse, sister, friend or mother, to enroll in our service so that
           they may be receiving the same messages as the mother and act as an accountability partner.</p></div>
-  <div class="col-sm-4"> <table width="100%"><tr><td align="center" height="100%"><img src="{% static 'mamatipshome/img/showcase/project12.png' %}" alt="Project 12 image" class="img-responsive underlay"></td></tr></table></div>
+  <div class="col-sm-6"> <table width="100%"><tr><td align="center" height="100%"><img src="{% static 'mamatipshome/img/showcase/project12.png' %}" alt="Project 12 image" class="img-responsive underlay"></td></tr></table></div>
 </div>
 
 <!-- unwanted images section -->
@@ -1126,24 +1070,6 @@ Usage: data-block-bg-img="IMAGE-URL" to apply a background image clearly via jQu
 
   <!--Contactform script -->
   <script src="{% static 'mamatipshome/contactform/contactform.js' %}"></script>
-
-<!-- Javascript libraries for the new injection-->
-
-<!-- JavaScript Libraries -->
-  <script src="{% static 'mamaTipsHome/injectionBoot/lib/jquery/jquery.min.js' %}"></script>
-  <script src="{% static 'mamaTipsHome/injectionBoot/lib/jquery/jquery-migrate.min.js' %}"></script>
-  <script src="{% static 'mamaTipsHome/injectionBoot/lib/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
-  <script src="{% static 'mamaTipsHome/injectionBoot/lib/superfish/hoverIntent.js' %}"></script>
-  <script src="{% static 'mamaTipsHome/injectionBoot/lib/superfish/superfish.min.js' %}"></script>
-  <script src="{% static 'mamaTipsHome/injectionBoot/lib/easing/easing.min.js' %}"></script>
-  <script src="{% static 'mamaTipsHome/injectionBoot/lib/modal-video/js/modal-video.js' %}"></script>
-  <script src="{% static 'mamaTipsHome/injectionBoot/lib/owlcarousel/owl.carousel.min.js' %}"></script>
-  <script src="{% static 'mamaTipsHome/injectionBoot/lib/wow/wow.min.js' %}"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="{% static 'mamaTipsHome/injectionBoot/contactform/contactform.js' %}"></script>
-
-  <!-- Template Main Javascript File -->
-  <script src="{% static 'mamaTipsHome/injectionBoot/js/main.js' %}"></script>
 
 </body>
 
