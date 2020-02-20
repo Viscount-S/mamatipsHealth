@@ -145,7 +145,7 @@
               </ul>
               <ul class="list-inline user-menu pull-right">
                 <li class="user-register"><i class="fa fa-edit text-primary "></i> <a href="#ourServises" class="text-uppercase">Our servises</a></li>
-                <li class="user-login"><i class="fa fa-sign-in text-primary"></i> <a href="login.html" class="text-uppercase">Donate</a></li>
+                <li class="user-login"><i class="fa fa-sign-in text-primary"></i> <a href="#donate_display" class="text-uppercase">Donate</a></li>
               </ul>
             </div>
           </div>
@@ -187,13 +187,13 @@
               <div class="row">
                 <div class="col-md-6 text-right-md item-caption">
                   <h2 class="h1 text-weight-light">
-                      <span class="text-primary">MamaTips.</span> Support US Deliver
+                      <span class="text-primary">Donate</span> Support US
                     </h2>
                   <h4>
-                      Technology in Healthcare
+                      Mamatips
                     </h4>
                   <p>We are seeking your support in realising our dream of offering health  support directly to mothers in need.</p>
-                  <a href="https://bootstrapmade.com" class="btn btn-more btn-lg"><i class="fa fa-plus"></i> Donate</a>
+                  <a href="#donate_display" class="btn btn-more btn-lg"><i class="fa fa-plus"></i> Donate</a>
                 </div>
                 <div class="col-md-6 hidden-xs">
                   <img src="{% static 'mamatipshome/img/slides/slide2.png' %}" alt="Slide 2" class="center-block img-responsive">
@@ -230,7 +230,7 @@
                 <ul class="dropdown-menu">
                   <li class="dropdown-header">MamaTics quick access</li>
                   <li><a href="#concept" tabindex="-1" class="menu-item">concept</a></li>
-                  <li><a href="about.html" tabindex="-1" class="menu-item">Donate</a></li>
+                  <li><a href="#donate_display" tabindex="-1" class="menu-item">Donate</a></li>
                   <li><a href="login.html" tabindex="-1" class="menu-item">My blog</a></li>
                   <li><a href="{% url 'home' %}" tabindex="-1" class="menu-item">home</a></li>
                   <li class="dropdown-footer">Maternal Care</li>
@@ -276,21 +276,20 @@
   <div id="content">
     <!-- Mission Statement -->
       <!-- new boot injection -->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="{% static 'mamaTipsHome/injectionBoot/img/about-img.png' %}" alt="Motivation">
+    </div>
+    <div class="col-sm-5">
+      <div class="about-content" align="center">
 
-      <section id="about-us" class="about-us padd-section wow fadeInUp">
-    <div class="container">
-      <div class="row justify-content-center">
-
-        <div class="col-md-5 col-lg-3">
-          <img src="{% static 'mamaTipsHome/injectionBootimg/img/about-img.png' %}" alt="About">
-        </div>
-
-        <div class="col-md-7 col-lg-5">
-          <div class="about-content">
-
-            <h2><span>Motivation</span>Maternal Health Support</h2>
+            <h2><span ><strong>Motivation</strong></span><br>
+              <br>Maternal Health Support</h2><br>
             <p><p align="center">The average Kenyan woman gives birth 4 times, and with such statistics, each pregnancy and delivery puts her,
-          as well as their baby, in potential danger of infection, disability, or in the worst case, death. There is therefore
+        as well as their baby, in potential danger of infection, disability, or in the worst case,
+
+        death.</p> <p>There is therefore
           an urgent need to educate women on pregnancy and to spur them to take a more active role in safeguarding their health
           and that of their unborn baby.e a full digital agency based in London. We are experienced professionals in building websites,
           applications, mobile solutions.</p>
@@ -306,11 +305,12 @@
             -->
 
           </div>
-        </div>
-
-      </div>
     </div>
-  </section>
+    <div class="col-sm-3">
+      <img src="{% static 'mamaTipsHome/injectionBoot/img/about-img.png' %}" alt="Motivation">
+    </div>
+  </div>
+</div>
       <!-- new boot injection -->
 
     <!--Showcase-->
@@ -506,7 +506,7 @@
       </div>
     </div>
 
-      <div class="container">
+      <div class="container" id="concept">
         <h2 class="" align="center"> Concept & Approach
           </h2>
         <br>
@@ -741,7 +741,8 @@ In addition, the mothers will have the option of choosing someone they trust, su
         </div>
       </div>
     </div>
-    <!-- Pricing -->
+
+    <!-- Pricing
     <div class="block-contained">
       <h2 class="block-title">
           Our Plans
@@ -830,86 +831,63 @@ In addition, the mothers will have the option of choosing someone they trust, su
         </div>
       </div>
     </div>
-    <!--
 Background image callout with CSS overlay
 Usage: data-block-bg-img="IMAGE-URL" to apply a background image clearly via jQuery .block-bg-overlay = overlays the background image, colour is inherited from block-bg-* classes .block-bg-overlay-NUMBER = determines opcacity value of overlay from 1-9 (default is 5) ie. .block-bg-overlay-2 or .block-bg-overlay-6
 -->
     <div class="block block-pd-sm block-bg-grey-dark block-bg-overlay block-bg-overlay-6 text-center" data-block-bg-img="https://picjumbo.imgix.net/HNCK1088.jpg?q=40&amp;w=1650&amp;sharp=30" data-stellar-background-ratio="0.3">
-      <h2 class="h-xlg h1 m-a-0">
-          <span data-counter-up>100,000,0</span>s
-        </h2>
+      <h2>Target Population </h2>
+      <h3 class="h-xlg h1 m-a-0">
+          <span data-counter-up>100,46,0</span>
+        </h3>
       <h3 class="h-lg m-t-0 m-b-lg">
-          Of Happy Customers!
+          Women & Infants with limited access to maternal care!
         </h3>
       <p>
-        <a href="#" class="btn btn-more btn-lg i-right">Join them today! <i class="fa fa-angle-right"></i></a>
+        <a href="#donate_display" class="btn btn-more btn-lg i-right">Support mamatips Today! <i class="fa fa-angle-right"></i></a>
       </p>
     </div>
     <!--Customer testimonial & Latest Blog posts-->
-    <div class="testimonials block-contained">
+    <div class="testimonials block-contained" id="faniceP">
       <div class="row">
         <!--Customer testimonial-->
         <div class="col-md-6 m-b-lg">
           <h3 class="block-title">
-              Testimonials
+              Founder's Thoughts
             </h3>
           <blockquote>
-            <p>Our productivity &amp; sales are up! Customers are happy &amp; we couldn't be happier with this product!</p>
+            <p>Mothers deserve support! Information is an imortant commodity and technology can make it available to everyone...</p>
             <img src="{% static 'mamatipshome/img/misc/charles-quote.png' %}" alt="Charles Spencer Chaplin">
             <small>
-                <strong>Charles Chaplin</strong>
+                <strong>Fanice</strong>
                 <br>
-                British comic actor
+                Founder mamatips
               </small>
           </blockquote>
         </div>
         <!--Latest Blog posts-->
         <div class="col-md-6 blog-roll">
           <h3 class="block-title">
-              Latest From Our Blog
+              Partner with us
             </h3>
           <!-- Blog post 1-->
           <div class="media">
-            <div class="media-left hidden-xs">
-              <!-- Date desktop -->
-              <div class="date-wrapper"> <span class="date-m">Feb</span> <span class="date-d">01</span> </div>
-            </div>
+
             <div class="media-body">
               <h4 class="media-heading">
-                  <a href="#" class="text-weight-strong">amet urna integer urna enim, sit arcu pid in nec?</a>
+                  <a href="#" class="text-weight-strong">Become part of mamatips</a>
                 </h4>
               <!-- Meta details mobile -->
               <ul class="list-inline meta text-muted visible-xs">
-                <li><i class="fa fa-calendar"></i> <span class="visible-md">Created:</span> Fri 1st Feb 2013</li>
-                <li><i class="fa fa-user"></i> <a href="#">Joe</a></li>
+                <li><i class="fa fa-calendar"></i> <span class="visible-md">Created:</span> Feb 2020</li>
+                <li><i class="fa fa-user"></i> <a href="##faniceP">Fanice</a></li>
               </ul>
               <p>
-                Ut <strong>commodo ullamcorper risus nec</strong> mattis. Morbi tincidunt posuere turpis eu laoreet. Nulla facilisi. Aenean at massa leo. Vestibulum in varius arcu.
-                <a href="#">Read more <i class="fa fa-angle-right"></i></a>
+                Become a champion and partner with us to create a world where Kenyan mothers and their newborns can access proper care, so they can reach optimal health.
+                <a href="#donate_display">Lets collaborate <i class="fa fa-angle-right"></i></a>
               </p>
             </div>
           </div>
-          <!-- Blog post 2 -->
-          <div class="media">
-            <div class="media-left hidden-xs">
-              <!-- Date desktop -->
-              <div class="date-wrapper"> <span class="date-m">Jan</span> <span class="date-d">17</span> </div>
-            </div>
-            <div class="media-body">
-              <h4 class="media-heading">
-                  <a href="#" class="text-weight-strong">a nec in sed hac ultrices cursus</a>
-                </h4>
-              <!-- Meta details mobile -->
-              <ul class="list-inline meta text-muted visible-xs">
-                <li><i class="fa fa-calendar"></i> <span class="visible-md">Created:</span> Thu 17th Jan 2013</li>
-                <li><i class="fa fa-user"></i> <a href="#">Joe</a></li>
-              </ul>
-              <p>
-                Nam risus magna, fringilla sit amet blandit viverra, dignissim eget est. Aenean at massa leo. Vestibulum in varius arcu.
-                <a href="#">Read more <i class="fa fa-angle-right"></i></a>
-              </p>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>
