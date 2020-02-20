@@ -6,7 +6,7 @@
 $(document).ready(function() {
   // Background & colour switcher
   // =============================
-  var defaultColour = 'orange';
+  var defaultColour = 'blue';
   
   //make current background active in switcher
   if ($('.switcher a.background').size() > 0) {
